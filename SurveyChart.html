@@ -1,0 +1,63 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- 
+
+
+-->
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     </head>
+   <div class="col-sm-12" id="main">
+    <H1 id="title">Fill out our Survey!</H1>
+     <p id="description">Let us know what you think!</p>
+    <div class="col-sm-12">      
+      <form id="survey-form">
+        <label for="name"id="name-label">Name:</label><br>
+        <input type="text" required placeholder="Name" id="name" name="name"><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" required placeholder="email" id="email" name="email"><br>
+        <label for="number" id="number-label">Number:</label><br>
+        <input type="number" required placeholder="number" id="number" name="number" min=1 max=5><br>
+        <label for="dropdown">Choose an option:</label><br>
+          <select name="options" id="dropdown">
+            <option value="option 1">option 1</option>
+            <option value="option 2">option 2</option>
+            <option value="option 3">option 3</option>
+            <option value="option 4">option 4</option>
+         </select><br>
+          <label for="radio">Select An Option:</label><br>
+         <input type="radio" id="radio1" name="option"         value="radio1">
+         <label for="radio1">radio 1</label><br>
+         <input type="radio" id="radio2" name="option" value="radio2">
+         <label for="radio2">radio 2</label><br>
+         <input type="radio" id="radio3" name="option" value="radio3">
+         <label for="radio3">radio 3</label><br>
+       <label for="checkbox">Check all that apply :</label><br>      
+        <input type="checkbox" id="check1" name="check1" value="check1">
+  <label for="check1"> check 1</label><br>
+  <input type="checkbox" id="check2" name="check2" value="check2">
+  <label for="check2"> check 2</label><br>
+  <input type="checkbox" id="check3" name="check3" value="check3">
+  <label for="check3"> check 3</label><br>
+        <label for="checkbox">Additional comments:</label><br>  
+        <textarea name="message" rows="05" cols="30">
+Enter your comments...
+</textarea><br>
+        <button type="submit" id="submit" onclick="submit">Submit</button>
+
+      </form>
+    </div>
+     
+          <div class="col-sm-12" id="tribute-link"
+          a href="https://www.imotorhead.com" target="_blank">Link</a>
+          </div>
+    </div>
+  </div>
+
+ 
+  <html/>
